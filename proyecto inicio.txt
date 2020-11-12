@@ -1,0 +1,24 @@
+en consola, dentro de la carpeta del proyecto, poner:
+npm init
+#le damos a enter todo para que nos de los valores por defecto
+#esto crea un "package.json"
+#en "scripts" dentro del package ponemos "start": "node index.js" , para que al poner el comando en consola "npm start", se inicialice el proyecto
+
+en consola poner:
+npm i --save readline-sync //Para instalar el cómo leer por pantalla
+npm i --save moment //Para trabajar con fechas
+
+#Buscar el .gitignore de node, crear uno en mi proyecto y copiarlo
+
+//para que en otro lado nos instale todas las dependencias, dentro de la imagen ponemos "npm install"
+
+//Al final de las primeras llaves del json, ponemos "type": "module"
+
+#Dentro del "index.js", ponemos "import * as readline from 'readline-sync'" (sin las ")
+
+//Con readline ponemos:
+
+let txt = readline.question('Hola? ')
+console.log(txt)
+
+//Eso imprime por pantalla el mensaje.
